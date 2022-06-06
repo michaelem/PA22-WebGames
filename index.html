@@ -3,21 +3,56 @@
   <head>
     <meta charset="utf-8" />
     <title>PA22 Web Games</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+      }
+      .headline {
+        text-align: center;
+        font-family: sans-serif;
+      }
+      .content {
+        min-width: 300px;
+        font-family: sans-serif;
+        font-size: 1.2em;
+        list-style: none;
+        padding-left: 0;
+        line-height: 1.5em;
+      }
+    </style>
   </head>
 
   <body>
-    <h1>PA22 Web Games</h1>
-    <ul>
-      <li><a href="4DChess/index.html">4DChess</a></li>
-      <li><a href="Colorful%20Tanks%201v1/index.html">Colorful Tanks</a></li>
-      <li><a href="Flappy%20Birdy/index.html">Flappy Bird</a></li>
-      <li><a href="game%20of%20life/index.html">game of life</a></li>
-      <li><a href="missiles/index.html">missiles</a></li>
-      <li><a href="race_line/index.html">Line Race</a></li>
-      <li><a href="Snake_carla/index.html">Snake_carla</a></li>
-      <li><a href="SpaceShip/index.html">SpaceShip</a></li>
-      <li><a href="super%20tic%20tac%20toe/index.html">super tic tac toe</a></li>
-      <li><a href="triangle%20vs%20circles/index.html">triangle vs circles</a></li>
-    </ul>
+    <script src="main.js"></script>
+    <h1 class="headline">PA22 Web Games</h1>
+
+    <div class="container">
+      <div>
+        <canvas id="canvas" width="300px" height="300px"></canvas>
+      </div>
+      <div>
+        <ul class="content">
+          <li><a href="4DChess/index.html">4DChess</a></li>
+          <li>
+            <a href="Colorful%20Tanks%201v1/index.html">Colorful Tanks</a>
+          </li>
+          <li><a href="Flappy%20Birdy/index.html">Flappy Bird</a></li>
+          <li><a href="game%20of%20life/index.html">game of life</a></li>
+          <li><a href="missiles/index.html">missiles</a></li>
+          <li><a href="race_line/index.html">Line Race</a></li>
+          <li><a href="Snake_carla/index.html">Snake_carla</a></li>
+          <li><a href="SpaceShip/index.html">SpaceShip</a></li>
+          <li>
+            <a href="super%20tic%20tac%20toe/index.html">super tic tac toe</a>
+          </li>
+          <li>
+            <a href="triangle%20vs%20circles/index.html">triangle vs circles</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
